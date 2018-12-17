@@ -1,0 +1,39 @@
+body {
+        background-color: #464646;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+h3 {
+	text-align: center;
+	margin-top: 25px;
+}
+
+img {
+	margin-top: 25px;
+	align: middle;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+#cards {
+    margin-left: 2px;
+     margin-right: 2px;
+}
+
+.portfolioCards {
+	height: 390px;
+	margin: 10px;
+}
+
+#padBottom {
+	    margin-top: 10px;
+}
+
+#padTop {
+	margin-top: 20px;
+}
