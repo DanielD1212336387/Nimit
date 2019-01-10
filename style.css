@@ -16,6 +16,10 @@ img {
 	align: middle;
 }
 
+p {
+	font-size: 14px;
+}
+
 .navbar {
     margin-bottom: 20px;
 }
@@ -36,4 +40,98 @@ img {
 
 #padTop {
 	margin-top: 20px;
+}
+
+.formBox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+#whiteText {
+	color: #ffffff;
+}
+
+#createPage {
+	height: 800px;
+}
+
+.cardColor {
+	background-color: #16406bad;
+	width: 100%;
+	box-shadow: 5px 10px 8px #888888 !important;
+}
+
+.card.selected {
+	background-color: #464646;
+	transform: scale(1.05);
+	transition: 75ms all ease-in;
+}
+
+.fontWhite {
+	color: #ffffff;
+	text-align: center;
+}
+
+.cardColor:hover { 
+	transform: scale(1.05);
+	transition: 75ms all ease-in;
+}
+
+.cardInput {
+	height: 230px;
+	background-color: #464646;
+	border-radius: 5px;
+	box-shadow: 5px 10px 8px #888888 !important;
+}
+
+.innerBox {
+	border-style: solid;
+	border-width: 1px;
+	height: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;	
+	padding-top: 10%;
+	padding-left: 25%;
+}
+
+.summaryBox {
+	height: 97%;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 5px 10px 8px #888888 !important;	
+	background-color: #464646;
+	border-color: #464646;
+}
+
+.innerSummary {
+	width: 80%;
+	height: 50%;
+	border-style: solid;
+	margin: 50px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border-color: #464646; 
+}
+
+.summaryList {
+	margin: 20px;
+	line-height: 40px;
+	color: black;
+}
+
+#summaryTitle {
+	margin: 20px;
+	color: #ffffff
+}
+
+#lineSpace {
+	line-height: 15px;
+}
+
+.durationInput { 
+	margin-left: 25%;
+	padding-right: 100px;
 }

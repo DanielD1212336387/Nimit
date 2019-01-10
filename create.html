@@ -13,78 +13,183 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
+
+</head>
 
 <body>
 
  <div id="wrapper">
+     <!-- Sidebar -->
+  <ul class="sidebar navbar-nav">
+    <img src="images/NIM_LOGO_LOCKUP_TRANS_2.png" height="120px" width="145px"> 
+    <img/>
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">
+      <i class="fas fa-fw fa-folder-open"></i>
+      <span>Portfolio</span>
+      </a>
+      <hr class="navLine" align="center">
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="#">
+      <i class="fas fa-fw fa-plus"></i>          
+      <span>Create</span>
+      </a>
+      <hr class="navLine" align="center">          
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+      <i class="fas fa-fw fa-user-circle"></i>
+      <span>Account</span>
+      </a>
+      <hr class="navLine" align="center">          
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+      <i class="fas fa-fw fa-comment"></i>
+      <span>Messages</span>
+      </a>
+      <hr class="navLine" align="center">          
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">
+      <i class="fas fa-fw fa-chart-line"></i>
+      <span>Reports</span>
+      </a>
+      <hr class="navLine" align="center">          
+     </li>        
+  </ul>
 
-      <!-- Sidebar -->
-      <ul class="sidebar navbar-nav">
-        <img src="images/NIM_LOGO_LOCKUP_TRANS_2.png" height="120px" width="145px"> 
-        <img/>
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">
-            <i class="fas fa-fw fa-folder-open"></i>
-            <span>Portfolio</span>
-          </a>
-          <hr class="navLine" align="center">
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">
-            <i class="fas fa-fw fa-plus"></i>          
-            <span>Create</span>
-          </a>
-          <hr class="navLine" align="center">          
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fas fa-fw fa-user-circle"></i>
-            <span>Account</span>
-          </a>
-          <hr class="navLine" align="center">          
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fas fa-fw fa-comment"></i>
-            <span>Messages</span>
-          </a>
-          <hr class="navLine" align="center">          
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <i class="fas fa-fw fa-chart-line"></i>
-            <span>Reports</span>
-          </a>
-          <hr class="navLine" align="center">          
-        </li>        
-      </ul>
+  <div id="content-wrapper">
 
-      <div id="content-wrapper">
+  <div class="container-fluid">
+    <!-- Breadcrumbs-->
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="#">Create</a>
+      </li>
+      <li class="breadcrumb-item active">Overview</li>
+    </ol>
 
-        <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mb-12">
+          <div class="card-header">
+            <h6 class="mb-0">Create Bucket</h6>
+          </div>
 
-          <!-- Breadcrumbs-->
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="#">Create</a>
-            </li>
-            <li class="breadcrumb-item active">Overview</li>
-          </ol>
+          <div class="card-body">
+            <h5>Select a coin type to add to bucket</h5>
+            <div class="row">
+              <div class="col-8">
 
-          
+                <div class="row mb-4">
+                  <div class="col-sm-6">
+                    <div class="card cardColor">
+                      <img class="card-img-top formBox" src="https://www.worldcryptoindex.com/wp-content/uploads/2018/01/pivx-logo-300.png" alt="Card image">
+                      <div class="card-body">
+                        <h6 class="card-title fontWhite">Hash Power Bucket</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body cardInput">
+                        <div class="innerBox">
+                          <h4>Hash Power Bucket</h4>
+                          <h6>Quantity</h6>
+                          <input type="text" name="Quantity" placeholder="0-50" >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="row mb-4">
+                  <div class="col-sm-6">
+                    <div class="card cardColor">
+                      <img class="card-img-top formBox" src="http://icons.iconarchive.com/icons/cjdowner/cryptocurrency/256/NavCoin-icon.png" alt="Card image">
+                      <div class="card-body">
+                        <h6 class="card-title fontWhite">Shared Stacking Bucket</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body cardInput">
+                        <div class="innerBox">
+                          <h4>Shared Stacking Bucket</h4>
+                          <h6>Quantity</h6>
+                          <input type="text" name="Quantity" placeholder="0-50" >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+
+                <div class="row mb-4">
+                  <div class="col-sm-6">
+                    <div class="card cardColor">
+                      <img class="card-img-top formBox" src="https://pbs.twimg.com/media/DFBzGHNU0AEMluF.png" alt="Card image">
+                      <div class="card-body">
+                        <h6 class="card-title fontWhite">Full MN Bucket</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card">
+                      <div class="card-body cardInput">
+                        <div class="innerBox">
+                          <h4>Full MN Bucket</h4>
+                          <h6>Quantity</h6>
+                          <input type="text" name="Quantity" placeholder="0-50" >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4 align-items-strech">
+                <div class="summaryBox">
+                  <h4 id="summaryTitle">Bucket Summary</h4>
+                  <div class="durationInput">
+                    <input type="text" name="Duration" placeholder="0-12">
+                    <button type="button" class="btn btn-primary">Calculate</button>
+                  </div>
+                  <div class="innerSummary" id="innerImage">
+                    <div CLASS="summaryList">
+                      <h6>Add selection to compile bucket summary</h6>
+                      <ul>
+                        <li>Hash Power Bucket = Quatity by Duration</li>
+                        <li>Shared Stacking Bucket = Quatity by Duration</li>                        
+                        <li>Full MN Bucket = Quatity by Duration</li>                        
+                      </ul>
+                      <h6>Disclamer</h6>
+                      <p id="lineSpace">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>             
+        </div>
+      </div>
+    </div>
+  </div>
   
   <!--Javascript-->
-  <!--ChartJS-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>	
-    <!--Main-->	
-	<script src="main.js"></script>
     <!--Jquery-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <!--Bootsrap-->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <!--Axios-->
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

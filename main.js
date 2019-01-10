@@ -1,3 +1,12 @@
+
+console.log('$',$);
+
+$(".cardColor").click(function(e){
+	$(this).toggleClass('selected');
+});
+
+function buildChart(){
+
 	const CHART = document.getElementById("lineChart");
 	console.log(CHART);
 
@@ -52,3 +61,4 @@
       }
     }
 });
+}
